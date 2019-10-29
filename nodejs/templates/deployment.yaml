@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
         - name: {{ .Chart.Name }}
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          #image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          image: pengj/nodeappk8s:v1.0.0
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
