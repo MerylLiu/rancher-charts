@@ -13,10 +13,10 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: NodePort
+  type: ClusterIP
   externalPort: 8080
   internalPort: 8080
-  internalPort: 30001
+  nodePort: 30196
 
 ingress:
   enabled: false
