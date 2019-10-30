@@ -7,9 +7,8 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   ports:
-    - port: {{ .Values.service.externalPort }}
-      targetPort: {{ .Values.service.internalPort }}
-      nodePort: {{ .Values.service.nodePort }}
+    - port: 8000
+      targetPort: {{ .Values.service.port }}
       protocol: TCP
       name: {{ .Values.service.name }}
   selector:
