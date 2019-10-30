@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: harbor/tomcat
+  repository: tomcat
   tag: 8.5-jre8
   pullPolicy: IfNotPresent
 
