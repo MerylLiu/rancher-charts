@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: tomcat
-  tag: 8.5-jre8
+  tag: 8.5
   pullPolicy: IfNotPresent
 
 nameOverride: ""
@@ -15,6 +15,7 @@ fullnameOverride: ""
 service:
   type: ClusterIP
   port: 8080
+  externalPort: 8080
 
 ingress:
   enabled: false
