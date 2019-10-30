@@ -14,9 +14,8 @@ fullnameOverride: ""
 
 service:
   name: http
-  type: LoadBalancer
+  type: NodePort
   port: 8080
-  nodePort: 30196
 
 ingress:
   enabled: false
@@ -24,7 +23,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: chart-example.local
+    - host: xip.io
       paths: []
 
   tls: []
