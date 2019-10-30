@@ -13,7 +13,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: NodePort
+  name: http
+  type: LoadBalancer
   port: 8080
   nodePort: 30196
 
