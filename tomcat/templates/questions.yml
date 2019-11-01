@@ -1,7 +1,7 @@
 questions:
   - variable: service.port
-  default: 8080
-  required: true
-  label: Container port
-  type: int
-  group: "Default"
+    default: 8080
+    required: true
+    label: Container port
+    type: int
+    group: "Default"
