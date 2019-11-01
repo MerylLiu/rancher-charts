@@ -20,4 +20,3 @@ version: 1.0.0
 # incremented each time you make changes to the application.
 appVersion: v10.16.2
 
-namespace: default
