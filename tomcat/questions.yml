@@ -7,7 +7,7 @@ questions:
   label: Container port
   type: int
   group: "Default"
-- variable: hosts.host
+- variable: ingress.hosts.host
   required: false
   label: host
   type: string
