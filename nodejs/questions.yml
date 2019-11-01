@@ -1,0 +1,9 @@
+categories:
+- Tomcat
+questions:
+- variable: service.port
+  default: 3000
+  required: true
+  label: Node app port
+  type: int
+  group: "Default"

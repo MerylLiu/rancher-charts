@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: node
-  tag: 10.16.2
+  tag: 8.10.0
   pullPolicy: IfNotPresent
 
 nameOverride: ""
