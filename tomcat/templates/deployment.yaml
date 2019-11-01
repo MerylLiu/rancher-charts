@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: {{ template "tomcat.fullname" . }}
+  name: "default"
   labels:
 {{ include "tomcat.labels" . | indent 4 }}
 ---
