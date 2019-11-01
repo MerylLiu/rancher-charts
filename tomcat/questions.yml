@@ -7,3 +7,8 @@ questions:
   label: Container port
   type: int
   group: "Default"
+- variable: hosts.host
+  required: false
+  label: host
+  type: string
+  group: "Default"

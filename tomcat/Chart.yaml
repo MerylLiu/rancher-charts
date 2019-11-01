@@ -18,7 +18,7 @@ version: 0.1.0
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application.
-appVersion: 7.0
+appVersion: 8.5
 
 # icon: http://d.lanrentuku.com/down/png/1807/10yuanshuiguo-png/if_apple_2003193.png
 icon: http://tomcat.apache.org/res/images/tomcat.png
