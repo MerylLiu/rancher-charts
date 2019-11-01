@@ -1,3 +1,6 @@
+categories:
+- Tomcat
+Kind: questions
 questions:
 - variable: service.port
   default: 8080
