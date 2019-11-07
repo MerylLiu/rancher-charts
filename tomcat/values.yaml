@@ -48,3 +48,9 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+maven:
+  repository: ""
+  profile: prod
+
+

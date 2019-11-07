@@ -24,6 +24,11 @@ spec:
             - name: http
               containerPort: {{ .Values.service.port }}
               protocol: TCP
+          env: 
+            -name: MAVEN_MIRROR_URL
+             value: {{ .Values.maven.repository }}
+            -name: MAVEN_PROFILE
+             value: {{ .Values.maven.profile }}
           # livenessProbe:
           #   httpGet:
           #     path: /

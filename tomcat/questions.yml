@@ -12,3 +12,14 @@ questions:
   label: host
   type: string
   group: "Default"
+- variable: maven.repository
+  required: true
+  label: Maven repository
+  type: string
+  group: "Maven"
+- variable: maven.profile
+  default: prod
+  required: true
+  label: Maven profile
+  type: string
+  group: "Maven"
