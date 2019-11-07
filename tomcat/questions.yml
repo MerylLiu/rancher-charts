@@ -24,7 +24,6 @@ questions:
   type: string
   group: "Maven"
 - variable: git.url
-  default: prod
   required: true
   label: Git url
   type: string
