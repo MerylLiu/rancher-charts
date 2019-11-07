@@ -30,7 +30,7 @@ questions:
   group: "Git"
 - variable: git.username
   required: false
-  label: Username
+  label: User name
   type: string
   group: "Git"
 - variable: git.password
