@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: jdarc/tomcat
-  tag: 8.5.47
+  tag: latest
   pullPolicy: IfNotPresent
 
 nameOverride: ""

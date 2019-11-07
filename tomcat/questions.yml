@@ -23,3 +23,9 @@ questions:
   label: Maven profile
   type: string
   group: "Maven"
+- variable: git.url
+  default: prod
+  required: true
+  label: Git url
+  type: string
+  group: "Git"
