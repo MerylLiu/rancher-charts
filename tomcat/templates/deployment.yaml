@@ -25,10 +25,10 @@ spec:
               containerPort: {{ .Values.service.port }}
               protocol: TCP
           env: 
-            -name: MAVEN_PROFILE
-             value: {{ .Values.maven.profile }}
-            -name: GIT_URL
-             value: {{ .Values.git.url }}
+            - name: MAVEN_PROFILE
+              value: {{ .Values.maven.profile }}
+            - name: GIT_URL
+              value: {{ .Values.git.url }}
           # livenessProbe:
           #   httpGet:
           #     path: /
