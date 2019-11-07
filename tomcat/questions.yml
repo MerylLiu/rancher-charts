@@ -29,3 +29,13 @@ questions:
   label: Git url
   type: string
   group: "Git"
+- variable: git.username
+  required: false
+  label: Username
+  type: string
+  group: "Git"
+- variable: git.password
+  required: false
+  label: Password
+  type: string
+  group: "Git"

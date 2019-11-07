@@ -52,5 +52,9 @@ affinity: {}
 maven:
   repository: ""
   profile: prod
+git:
+  url: ""
+  username: ""
+  password: ""
 
 
