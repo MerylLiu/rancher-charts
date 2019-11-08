@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: jdarc/tomcat
+  repository: registry.cn-hangzhou.aliyuncs.com/meryl/tomcat
   tag: latest
   pullPolicy: IfNotPresent
 
